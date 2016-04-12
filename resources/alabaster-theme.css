@@ -1,0 +1,61 @@
+
+.cm-s-alabaster { background: background: hsl(45,15%,98%); ; color: hsl(40, 16%, 11%); text-rendering: optimizeLegibility; -webkit-font-smoothing: subpixel-antialiased; }
+
+.cm-s-alabaster span.cm-rainbow.cm-bracket  {color: #000;}
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket1 {color: #000;}
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket2 {color: hsl(03, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket3 {color: hsl(23, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket4 {color: hsl(43, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket5 {color: hsl(63, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket6 {color: hsl(83, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket7 {color: hsl(103, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket8 {color: hsl(123, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket9 {color: hsl(143, 50%, 50%); }
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket10 {color: hsl(163, 50%, 50%);}
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket11 {color: hsl(183, 50%, 50%);}
+.cm-s-alabaster span.cm-rainbow.cm-bracket.cm-bracket12 {color: hsl(203, 50%, 50%);}
+
+.cm-s-alabaster span.cm-bracket0, .cm-s-alabaster span.cm-bracket-mismatched { color:#f88; background:#733; }
+
+.cm-s-alabaster span.cm-string,
+.cm-s-alabaster span.cm-number,
+.cm-s-alabaster span.cm-atom,
+.cm-s-alabaster span.cm-comment { padding: 3px 0px; }
+.cm-s-alabaster span.cm-string  { color: inherit; background-color: hsla(68, 40%, 80%, 0.45); /*hsla(68, 100%, 30%, 0.25); */ }
+.cm-s-alabaster span.cm-number,
+.cm-s-alabaster span.cm-atom    { color: inherit; background-color: hsla(175, 59%, 40%, 0.1); /*hsla(175, 59%, 40%, 0.25);*/ }
+.cm-s-alabaster span.cm-comment { color: inherit; background-color: hsla(340, 97%, 82%, 0.2); /*hsla(287, 0%, 84%, 0.5);*/ /*hsla(0, 0%, 48%, 0.25);*/  }
+.cm-s-alabaster span.cm-builtin { color: inherit; }
+.cm-s-alabaster span.cm-keyword { color: inherit; }
+
+.cm-s-alabaster span.cm-positive {background:#436; color:#c9f; border-radius:2px; }
+.cm-s-alabaster span.cm-negative {background:#633; color:#f77; border-radius:2px; }
+.cm-s-alabaster span.CodeMirror-searching { background: #aaa; color:black; }
+.cm-s-alabaster span.CodeMirror-searching-active { background: #afa; color:black; }
+
+.cm-s-alabaster .CodeMirror-selected { background: hsla(211, 37%, 77%, 0.5); }
+.cm-s-alabaster .CodeMirror-focused .CodeMirror-selected { background: #444; }
+
+.cm-s-alabaster span.cm-SUBST { color:#FF1F69; }
+
+.cm-s-alabaster .CodeMirror-activeline, .cm-s-alabaster .activeline { background: hsla(200, 80%, 70%, 0.10); }
+.cm-s-alabaster .CodeMirror-activeline .CodeMirror-linenumber { background:#474a4f; color:#888; }
+
+div.CodeMirror span.CodeMirror-matchingbracket { color: inherit; border-bottom: 2px solid hsla(331, 62%, 52%,0.5); }
+
+/* .cm-s-alabaster span.CodeMirror-matchingbracket { background:hsla(211, 37%, 77%, 0.5); } */
+.cm-s-alabaster span.CodeMirror-nonmatchingbracket { background: hsla(0, 100%, 65%, 0.50); color: hsl(20, 100%, 60%); border: none; }
+
+/* .cm-s-alabaster .cm-searching { background:hsla(211, 37%, 77%, 0.5); border-radius:2px; color: hsl(205, 64%, 50%) !important; }
+.cm-s-alabaster .searching-current { background:hsla(211, 37%, 77%, 0.5); color:hsl(331, 62%, 52%) !important; }
+ */
+
+.cm-s-alabaster span.cm-searching, .cm-s-alabaster span.searching-current { background:hsla(45, 100%, 65%, 0.5) !important; color: inherit !important; }
+.cm-s-alabaster span.cm-searching.searching-current { background:hsla(35, 100%, 65%, 0.9) !important; }
+
+.cm-s-alabaster.CodeMirror div.CodeMirror-cursor { border-left: 2px solid hsl(331, 64%, 52%); }
+/* Shown when moving in bi-directional text */
+.cm-s-alabaster.CodeMirror div.CodeMirror-secondarycursor { border-left: 1px solid silver; }
+.cm-s-alabaster.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: none !important; background: #80838a; z-index:0;}
+
+.cm-s-alabaster .CodeMirror-gutters { background: hsl(45, 15%, 94%); border-right:0px solid #444; }

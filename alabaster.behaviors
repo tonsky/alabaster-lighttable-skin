@@ -1,0 +1,2 @@
+{:+ {:app [ (:lt.objs.style/provide-skin "alabaster" "resources/alabaster-skin.css")
+            (:lt.objs.style/provide-theme "alabaster" "resources/alabaster-theme.css") ]}}
