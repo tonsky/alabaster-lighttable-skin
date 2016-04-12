@@ -9,16 +9,10 @@
 
 ## Installation
 
-Run this in a terminal:
-
-```sh
-cd /Applications/LightTable.app/Contents/Resources/app/plugins/
-git clone https://github.com/tonsky/alabaster-lighttable-skin.git
-```
-
-Restart LightTable
-
-Go to `Settings: User behaviors` and add:
+1. Go to `Plugins: Show plugin manager` → `Available`
+2. Search for `Alabaster`
+3. Install
+4. Go to `Settings: User behaviors` and add:
 
 ```clj
   [:app :lt.objs.style/set-skin "alabaster"]
